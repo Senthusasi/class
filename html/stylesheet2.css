@@ -1,0 +1,20 @@
+.main{
+    display: grid;
+    grid-template-rows: 30px auto 30px;
+}
+.header{
+    grid-area: head;
+    background-color: blue;
+}
+.article{
+    grid-area: content;
+    background-color: brown;
+}
+.aside{
+    grid-area: side;
+    background-color: aqua;
+}
+.footer{
+    grid-area: foot;
+    background-color: bisque;
+}

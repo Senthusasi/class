@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: beige;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+card1{
+    height: 200px;
+    width: 200px;
+}
+.image{
+    flex: 1; 
+    margin: 5px 7px;
+    box-shadow: 0px 2px 8px 0px rgba(130, 88, 88, 0.2); 
+    background-color: rgb(247, 241, 241);
+    border-radius: 10px;
+}
+.btn--block{
+    width: 30%;
+    display: inline-flex;
+    padding: 5px;
+    font-family: bold;
+    cursor: pointer;
+    margin-right: 100%; 
+    border: 4px solid rgb(131, 115, 236);
+    background-color: rgba(151, 139, 232, 0.822);
+    margin-left: 20px;
+    margin-top: 5%;
+}
+  
